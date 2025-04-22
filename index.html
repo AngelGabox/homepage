@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inicio - Administrador</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav class="col-md-2 d-flex flex-column sidebar p-3">
+        <div class="text-center mb-4">
+          <div class="bg-light rounded-circle mx-auto" style="width: 60px; height: 60px;"></div>
+          <h2 class="fw-mb-2">Pepe</h2>
+        </div>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a class="nav-link text-white active" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="nav-link text-white" href="estudiantes.html">Estudiante</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="nav-link text-white" href="#">Profesores</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="nav-link text-white" href="actividades.html">Actividades</a>
+          </li>
+          <li class="nav-item mt-auto">
+            <a class="nav-link text-white" href="#">Cerrar Sesión</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="col-md-10 py-4 px-5">
+        <!-- Bienvenida -->
+        <h2 class="fw-bold mb-3">¡Bienvenido, Admin Pepe! 🌞</h2>
+        <p class="lead text-muted">Hoy es lunes 22 de abril de 2025. ¡Esperamos que tengas un gran día en el jardín infantil!</p>
+
+        <!-- Tarjetas informativas -->
+        <div class="row mb-4">
+          <div class="col-md-3">
+            <div class="bg-white p-3 dashboard-card text-center border-start border-4 border-success">
+              <div class="dashboard-title">Niños Registrados</div>
+              <h3 class="text-success">20</h3>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="bg-white p-3 dashboard-card text-center border-start border-4 border-primary">
+              <div class="dashboard-title">Profesores Activos</div>
+              <h3 class="text-primary">4</h3>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="bg-white p-3 dashboard-card text-center border-start border-4 border-warning">
+              <div class="dashboard-title">Eventos Semana</div>
+              <h3 class="text-warning">3</h3>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="bg-white p-3 dashboard-card text-center border-start border-4 border-danger">
+              <div class="dashboard-title">Pendientes</div>
+              <h3 class="text-danger">2</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cronograma -->
+        <div class="mb-4">
+          <h4 class="fw-bold">📅 Cronograma de Eventos</h4>
+          <table class="table table-bordered table-striped bg-white">
+            <thead class="table-success">
+              <tr>
+                <th>Fecha</th>
+                <th>Evento</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>25/04/2025</td>
+                <td>Día del Niño 🎉</td>
+                <td>Confirmado</td>
+              </tr>
+              <tr>
+                <td>28/04/2025</td>
+                <td>Reunión de Padres 👨‍👩‍👧‍👦</td>
+                <td>Pendiente</td>
+              </tr>
+              <tr>
+                <td>01/05/2025</td>
+                <td>Día en Pijama 🛌</td>
+                <td>Confirmado</td>
+              </tr>
+              <tr>
+                <td>05/05/2025</td>
+                <td>Vacunación Escolar 💉</td>
+                <td>Confirmado</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Recordatorios -->
+        <div>
+          <h4 class="fw-bold">🔔 Recordatorios Importantes</h4>
+          <div class="recordatorio">
+            🧾 El pago de nómina vence el 27 de abril.
+          </div>
+          <div class="recordatorio">
+            📥 Tienes 2 solicitudes de inscripción pendientes.
+          </div>
+          <div class="recordatorio">
+            🕒 Actividad de lectura programada para hoy a las 10:00 a.m.
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

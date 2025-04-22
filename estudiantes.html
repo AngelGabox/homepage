@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Gestión</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav class="col-md-2 d-flex flex-column sidebar p-3 ">
+        <div class="text-center mb-4">
+          <div class="bg-light rounded-circle mx-auto" style="width: 60px; height: 60px;"></div>
+        </div>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a class="nav-link text-white" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="nav-link text-white active" href="estudiante.html">Estudiante</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="nav-link text-white" href="#">Profesores</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="nav-link text-white" href="actividades.html">Actividades</a>
+          </li>
+          <li class="nav-item mt-auto">
+            <a class="nav-link text-white" href="#">Cerrar Sesión</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="col-md-10 py-4 px-5">
+        <h2 class="fw-bold">Gestión de Estudiante</h2>
+        <div class="d-flex align-items-center mb-3">
+          <input type="text" class="form-control w-25 me-2" placeholder="Buscar..." />
+          <button class="btn btn-buscar me-2">
+            🔍
+          </button>
+          <button class="btn btn-agregar">Agregar Estudiante</button>
+        </div>
+
+              <!-- Tabla de Estudiantes -->
+        <div class="table-responsive mt-4">
+          <table class="table table-bordered table-striped bg-white">
+            <thead class="table-success">
+              <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Curso</th>
+                <th>Acudiente</th>
+                <th>Teléfono</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>001</td>
+                <td>Luciana Pérez</td>
+                <td>4</td>
+                <td>Párvulos</td>
+                <td>María Gómez</td>
+                <td>311 234 5678</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>002</td>
+                <td>Tomás Rodríguez</td>
+                <td>5</td>
+                <td>Prejardín</td>
+                <td>Carlos Rodríguez</td>
+                <td>300 456 7890</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>003</td>
+                <td>Sofía Martínez</td>
+                <td>3</td>
+                <td>Párvulos</td>
+                <td>Laura Pérez</td>
+                <td>320 111 2233</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>004</td>
+                <td>Juan Sebastián</td>
+                <td>4</td>
+                <td>Prejardín</td>
+                <td>Andrea López</td>
+                <td>313 876 5432</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>005</td>
+                <td>Isabella Torres</td>
+                <td>5</td>
+                <td>Jardín</td>
+                <td>José Torres</td>
+                <td>301 678 9999</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>006</td>
+                <td>Mateo Ramírez</td>
+                <td>3</td>
+                <td>Párvulos</td>
+                <td>Camila Ramírez</td>
+                <td>310 555 1122</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>007</td>
+                <td>Valentina Castro</td>
+                <td>4</td>
+                <td>Jardín</td>
+                <td>Juan Castro</td>
+                <td>305 333 2244</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>008</td>
+                <td>Santiago Gómez</td>
+                <td>5</td>
+                <td>Jardín</td>
+                <td>Paola Gómez</td>
+                <td>312 999 4433</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>009</td>
+                <td>Emma Hernández</td>
+                <td>3</td>
+                <td>Párvulos</td>
+                <td>Diego Hernández</td>
+                <td>311 123 8899</td>
+                <td>Activo</td>
+              </tr>
+              <tr>
+                <td>010</td>
+                <td>Thiago López</td>
+                <td>4</td>
+                <td>Prejardín</td>
+                <td>Sandra López</td>
+                <td>319 554 7788</td>
+                <td>Activo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

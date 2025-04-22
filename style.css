@@ -1,0 +1,76 @@
+:root{
+    --dark-blue: #101d38;
+    --blue: #142f69;
+}
+body {
+  background-color: #fef4e8;
+}
+.sidebar {
+  height: 100vh;
+  background-color: var(--dark-blue);
+  color: white;
+}
+.sidebar .nav-link.active {
+  background-color: var(--blue);
+}
+.header {
+  padding: 1rem;
+  background-color: #ffffff;
+}
+.table-container {
+  border: 4px solid var(--blue);
+  border-radius: 5px;
+  overflow: auto;
+}
+.btn-buscar {
+  background-color: var(--blue);
+  color: white;
+}
+.btn-agregar {
+  background-color: var(--blue);
+  color: white;
+}
+.icon-style {
+  font-size: 18px;
+}
+.form-container, .calendar-container, .map-container, .event-list {
+background-color: #ffffff;
+border: 3px solid var(--blue);
+border-radius: 10px;
+padding: 15px;
+height: 100%;
+}
+.form-label {
+font-weight: 600;
+}
+.img-placeholder {
+background-color: #ddd;
+width: 100%;
+height: 200px;
+border-radius: 10px;
+text-align: center;
+line-height: 200px;
+color: #555;
+font-weight: bold;
+}
+.dashboard-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .dashboard-title {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .recordatorio {
+    background-color: #fff3cd;
+    border-left: 6px solid #ffc107;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+.calendar{
+    width: 100%;
+}
+.map {
+    height: 100%;
+}
